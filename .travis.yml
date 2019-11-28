@@ -8,10 +8,10 @@ python:
   - 3.6
 
 install:
-  - /opt/anaconda3/bin/pip install pytest
+  - pip install pytest
 
 script:
-  - /opt/anaconda3/bin/pytest --verbose example.py
+  - pytest --verbose example.py
 
 notifications:
   email: false
